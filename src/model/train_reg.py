@@ -20,6 +20,8 @@ warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
 import wandb
 
+# run actions
+
 # Load data
 housing = datasets.fetch_california_housing()
 X = pd.DataFrame(housing.data, columns=housing.feature_names)
